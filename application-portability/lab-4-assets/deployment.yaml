@@ -3,6 +3,7 @@ kind: Deployment
 metadata:
   labels:
     app: httpd
+    test: labels
   name: httpd
   namespace: simple-app
 spec:
