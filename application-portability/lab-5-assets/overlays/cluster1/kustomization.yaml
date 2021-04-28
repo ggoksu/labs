@@ -7,4 +7,3 @@ bases:
 patchesStrategicMerge:
 - configmap.yaml
 - deployment.yaml
-- route.yaml
