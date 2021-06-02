@@ -6,8 +6,8 @@ metadata:
   labels:
     deployment: hello
   annotations:
-    apps.open-cluster-management.io/github-branch: master
-    apps.open-cluster-management.io/github-path: application-portability/lab-5-assets/overlays/cluster1
+    apps.open-cluster-management.io/git-branch: master
+    apps.open-cluster-management.io/git-path: application-portability/lab-5-assets/overlays/cluster1
 spec:
   channel:  web-app/web-app-channel
   placement: 
